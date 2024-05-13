@@ -1,0 +1,60 @@
+{
+    "name": "Gecko's Ink Source",
+    "subtitle": "All Gecko's Ink apps in one place.",
+    "description": "Welcome to my source! Here you'll find all of my apps.",
+    "iconURL": "https://altstore.geckos.ink/icon.png",
+    "headerURL": "https://f000.backblazeb2.com/file/rileytestut/ExampleSource/OceanHeader.png",
+    "website": "https://altstore.geckos.ink/",
+    "tintColor": "#42a947",
+    "featuredApps": [
+        "ink.geckos.lottoplaza"
+    ],
+    "apps": [
+        {
+            "name": "Lotto Plaza",
+            "bundleIdentifier": "ink.geckos.lottoplaza",
+            "developerName": "Gecko's Ink",
+            "subtitle": "A free lottery, real winning",
+            "localizedDescription": "This lottery will never requires you a money: its jackpot earns with advertising revenues, and you can use your winning to buy in our shop!",
+            "iconURL": "https://altstore.geckos.ink/apps/LottoPlaza/icon.png",
+            "tintColor": "#15d51f",
+            "screenshots": [
+                "https://altstore.geckos.ink/apps/lottoplaza/screenshot_1.png",
+                "https://altstore.geckos.ink/apps/lottoplaza/screenshot_2.png",
+                "https://altstore.geckos.ink/apps/lottoplaza/screenshot_3.png",
+                "https://altstore.geckos.ink/apps/lottoplaza/screenshot_4.png"
+            ],
+            "versions": [
+                {
+                    "version": "1.0",
+                    "date": "2024-05-13T09:00:00-08:00",
+                    "size": 20000000,
+                    "downloadURL": "https://altstore.geckos.ink/apps/lottoplaza/lottoplaza.ipa",
+                    "localizedDescription": "New features and bug fixes.",
+                    "minOSVersion": "12.0"
+                }
+            ],
+            "appPermissions": {
+                "entitlements": [
+                    "com.apple.security.network.client",
+                    "com.apple.developer.applesignin"
+                ],
+                "privacy": {
+                    "NSUserTrackingUsageDescription": "Tracking is requested only for delivering personal notifications and accessing your personal account data. Moreover, it may be used to deliver personalized ads to you. This app will be functional regardless of which privacy option is chosen."                    
+                }
+            }
+        }
+    ],
+    "news": [
+        {
+            "title": "Welcome to Gecko's AltStore!",
+            "identifier": "welcome",
+            "caption": "Introducing a new AltStore source!",
+            "date": "2024-05-13",
+            "tintColor": "#5CA399",
+            "imageURL": "https://example.com/new_feature_image.png",
+            "notify": false,
+            "url": "https://altstore.geckos.ink/"
+        }
+    ]
+}
